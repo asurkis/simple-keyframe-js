@@ -123,6 +123,6 @@ function onClick(e) {
 
 window.addEventListener('load', () => {
   const canvas = document.querySelector('canvas');
-  canvas.addEventListener('click', onClick);
+  canvas.addEventListener('mousemove', onClick);
   requestAnimationFrame(animationFrame);
 });
